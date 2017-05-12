@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Our Love Story</title>
+	<title>Our Story</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<style type="text/css">
 		@font-face {
@@ -20,27 +20,26 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-                <span class="space"/><span class="comments">* 在你生日的这一天,将快乐的音符，作为礼物送给你。</span><br />
-                <span class="space"/><span class="comments">* 愿你拥有个美丽的日子，祝你生日快乐！</span><br />
-                <span class="space"/><span class="comments">* 都说流星可以有求必应，如果可以我愿意在夜空下等待，</span><br />
+                <span class="space"/><span class="comments">* 都说流星可以有求必应，如果可以，我愿意在夜空下等待，</span><br />
                 <span class="space"/><span class="comments">* 等到一颗星星被我感动，为我划过星空带着我的祝福落在你的枕边，</span><br />
-                <span class="space"/><span class="comments">* 天天开心。写了一段程序送给亲爱的马言同志。</span><br />
+                <span class="space"/><span class="comments">* 愿你天天开心。</span><br />
+                <span class="space"/><span class="comments">* 这段程序记录了我们的故事。</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
                 <span class="comments">// 有一个男孩和一个女孩</span><br />
-                Boy i = <span class="keyword">new</span> Boy(<span class="string">"曹胜祥"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"马言"</span>);<br />
-				<span class="comments">// 2017年5月6日, 我要用特别的方式对你说生日快乐 </span><br />
-				i.say("生日快乐");<br />
+                Boy i = <span class="keyword">new</span> Boy(<span class="string">"allen"</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"june"</span>);<br />
+				<span class="comments">// 我要对你说你真很美</span><br />
+				i.say("You Are Really Beautiful");<br />
 				<span class="comments">// 谢谢你的陪伴，你是多么好的一个女孩。</span><br />
 				i.thank(u);<br />
-				<span class="comments">// 每天看到你的笑</span><br />
-				<span class="comments">// 每次手机一有响动都是你</span><br />
-				<span class="comments">// 把时间设置到最初那天，让我们的每一天一直循环</span><br />
-				<span class="keyword">boolean</span> time = <span class="keyword">0</span>;<br />
+				<span class="comments">// 想每天看到你的笑</span><br />
+				<span class="comments">// 拾起你掉落过的每一滴眼泪，去品尝它藏着的忧伤</span><br />
+				<span class="comments">// 现在把时间放回第一次见你那天</span><br />
+				<span class="keyword">var</span> time = <span class="keyword">0</span>;<br />
                 <span class="comments">// 简单的一天,因为有你，而不简单。</span><br />
 				<span class="keyword">time++;</span><br />
 				<span class="keyword">while</span> (time) {<br />
-				<span class="placeholder"/><span class="comments">// 时间一天天过去</span><br />
+				<span class="placeholder"/><span class="comments">// 时间每天就这样一天天在走着</span><br />
                 <span class="placeholder"/>time++;<br />
 
                 <span class="placeholder"/><span class="comments">// 想念你.</span><br />
@@ -60,11 +59,11 @@
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						mayan, I have fallen in love with you for
+						june, Do not you fall in love with me?
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-						Love u forever and ever.<br/>
+                        无论将来你走到了哪里，有着怎样的生活，<br/>都要记得远方还有个人在默默为你祝福<br/>
 						<div class="signature">- allen</div>
 					</div>
 				</div>
@@ -78,9 +77,9 @@
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2017, 4, 7);
-		together.setHours(16);
-		together.setMinutes(5);
+		together.setFullYear(2013, 8, 1);
+		together.setHours(9);
+		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
 		
