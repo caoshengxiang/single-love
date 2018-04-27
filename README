@@ -1,0 +1,19 @@
+# single
+> 这是一个很小的静态页面，程序员的浪漫
+
+### gh-pages
+> https://www.cnblogs.com/MuYunyun/p/6082359.html
+
+展示某个目录
+```
+git subtree push --prefix=dist origin gh-pages
+```
+
+
+整个项目展示
+```
+git symbolic-ref HEAD refs/heads/gh-pages
+git add -A
+git commit -m "..."
+git push origin gh-pages
+```
